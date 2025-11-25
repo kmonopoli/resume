@@ -1,0 +1,292 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+% \usepackage[colorlinks=true]{hyperref}
+% \usepackage{tgheros}%lmodern}      % helvet
+\usepackage{arimo}
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{titlecaps}
+
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Adjust spacing
+\setlength{\parindent}{0pt}
+\setlength{\topsep}{-2pt}
+\setlength{\parskip}{-2pt}
+\titlespacing{\section}{0pt}{4pt}{1pt}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
+\linespread{0.95}   % try 0.9 to 0.95 and see what you like
+
+% Section formatting
+\titleformat{\section}{\bfseries\uppercase}{}{0pt}{}[\titlerule]
+\titleformat{\subsection}[runin]{\bfseries}{}{0pt}{}
+
+
+% Custom commands for easy updates
+\newcommand{\name}{Kathryn Monopoli}
+\newcommand{\phone}{+1-508-367-9077}
+\newcommand{\email}{krmonopoli@gmail.com}
+\newcommand{\linkedin}{linkedin.com/in/kathrynmonopoli}
+\newcommand{\website}{https://kmonopoli.github.io/}
+\newcommand{\googlescholar}{https://scholar.google.com/citations?hl=en&user=fYt4EYcAAAAJ&view_op=list_works&sortby=pubdate}
+
+
+
+% ============================================
+% HEADLINE VARIANTS - UNCOMMENT ONE
+% ============================================
+
+% Option 1: RNA Therapeutics Focused (CURRENT)
+\newcommand{\headline}{%
+\textit{\small{
+Adaptable computational scientist with expertise in machine learning and high-throughput analysis. Proven track record developing models for therapeutic applications and efficient pipelines for data processing. Prior bench experience enables cross-team communication and informed data analysis and validation.}}
+}
+
+% Option 2: Machine Learning / Data Science Focused
+% \newcommand{\headline}{%
+% Machine learning scientist with 10+ years programming experience and expertise in developing predictive models for biological applications. Strong track record building production-ready ML pipelines and translating complex analyses into actionable insights. Skilled at bridging computational and experimental teams through clear communication.
+% }
+
+% Option 3: Bioinformatics Focused
+% \newcommand{\headline}{%
+% Computational biologist specializing in sequence analysis, NGS data pipelines, and machine learning applications in drug discovery. Combines deep biological knowledge with strong software development skills to solve complex problems in therapeutic development. Experienced collaborating across computational and wet-lab teams.
+% }
+
+% Option 4: Generalist Biotech Data Science
+% \newcommand{\headline}{%
+% Data scientist with interdisciplinary expertise spanning machine learning, bioinformatics, and therapeutic development. Proven ability to develop predictive models, build data pipelines, and communicate complex results to diverse stakeholders. Track record delivering impact in both academic and biotech industry settings.
+% }
+
+\begin{document}
+
+% ============================================
+% HEADER
+
+% ============================================
+\begin{center}
+    {\Large\bfseries \name}\\[0pt]
+    {\small \phone\ $\mid$ \href{mailto:\email}{\email} $\mid$ \href{https://\linkedin}{\linkedin} $\mid$ \href{\website}{\website}}
+\end{center}
+\vspace{3pt}  
+\titlerule
+\vspace{4pt}  
+
+ 
+
+\headline
+
+
+% ============================================
+% KEY EXPERTISE SECTION
+% ============================================
+\section*{Key Expertise}
+\vspace{2pt}   
+% --------------------------------------------
+% PRESET 1: RNA Therapeutics Heavy (CURRENT)
+% --------------------------------------------
+\begin{itemize}[leftmargin=*, itemsep=-2pt, parsep=0pt, topsep=0pt, partopsep=0pt]
+    \item Extensive knowledge of RNA Biology and experience developing RNA therapeutics, with expertise in siRNAs
+    \item AI/Machine Learning model development and application to drug design and sequence data analysis
+    \item Python for bioinformatics applications and extensive experience with relevant data analysis packages
+    \item Data analysis, cleaning, preprocessing, and feature selection including for high-throughput pipelines
+    \item Data Visualization to effectively communicate high dimensional data and concepts
+    \item Communication computational concepts to broad audiences orally and written (patents, grants, manuscripts)
+    \item Software development for drug design, sequence analysis, and pipeline development
+    \item Experienced in protein structure, folding, and dynamics analysis using computational and wet lab techniques
+    \item\textit{{\textbf{Languages \& Tools}:\small{ Python (10+ years), R, Java, SQL, Git, Docker, Bash, AWS (for more see \href{https://www.linkedin.com/in/kathrynmonopoli/}{LinkedIn})}}}
+\end{itemize}
+
+% --------------------------------------------
+% PRESET 2: ML/Data Science Heavy
+% --------------------------------------------
+% \begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt, topsep=2pt]
+%     \item Machine learning model development with expertise in scikit-learn, TensorFlow, and deep learning approaches
+%     \item Python programming (10+ years) for data science, ML pipelines, and production-ready software development
+%     \item Feature engineering and model optimization, including novel embedding methods for sequence data
+%     \item Predictive modeling on limited datasets with proven 5-fold improvement in model performance
+%     \item High-throughput data pipeline development ensuring accuracy, reliability, and scalability
+%     \item Data visualization expertise creating publication-quality, intuitive figures for complex datasets
+%     \item Statistical analysis, experimental design, and A/B testing for model validation
+%     \item Cloud computing and DevOps: AWS, Docker, Git, automated workflows
+%     \item Strong communication skills translating technical concepts for diverse stakeholders
+%     \item Domain expertise in biological sequence analysis and therapeutic development
+% \end{itemize}
+
+% --------------------------------------------
+% PRESET 3: Bioinformatics Heavy
+% --------------------------------------------
+% \begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt, topsep=2pt]
+%     \item Bioinformatics expertise in RNA/DNA sequence analysis, transcriptomics, and NGS data processing
+%     \item Machine learning applications to biological problems including therapeutic design and prediction
+%     \item High-throughput pipeline development for genomic data with emphasis on accuracy and reproducibility
+%     \item Python (10+ years), R, and Biopython for computational biology and data analysis
+%     \item Experience with RNA therapeutics including siRNAs, ASOs, and oligonucleotide design
+%     \item Structural bioinformatics: protein folding, dynamics, molecular modeling (Rosetta suite)
+%     \item Data integration across multiple omics platforms and experimental modalities
+%     \item Statistical analysis and feature selection for high-dimensional biological data
+%     \item Cross-functional collaboration bridging computational and experimental biology teams
+%     \item Tools: SQL, Git, Docker, AWS, Bash scripting for automation
+% \end{itemize}
+
+% --------------------------------------------
+% PRESET 4: Balanced/Generalist Biotech
+% --------------------------------------------
+% \begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt, topsep=2pt]
+%     \item Machine learning and data science expertise applied to drug discovery and therapeutic development
+%     \item Python programming (10+ years) with scikit-learn, TensorFlow, and bioinformatics packages
+%     \item Proven track record developing predictive models that directly impact therapeutic pipelines (2000+ designs)
+%     \item Experience in RNA therapeutics, protein engineering, and antibody discovery across academic and industry settings
+%     \item Data pipeline development for high-throughput analysis ensuring quality and reproducibility
+%     \item Statistical analysis, experimental design, and data visualization for complex datasets
+%     \item Strong communication skills: technical presentations at major conferences, patent applications, manuscript writing
+%     \item Cross-functional collaboration bridging computational, biology, and engineering teams
+%     \item Software development and project management experience leading technical teams
+%     \item Cloud computing, database design, and DevOps: AWS, Docker, SQL, Git
+% \end{itemize}
+
+% ============================================
+% EDUCATION
+% ============================================
+
+\section*{Education}
+\vspace{2pt}   
+\textbf{UMass Chan Medical School \& Worcester Polytechnic Institute (WPI)} \hfill \\
+PhD Computational Biosciences \& Bioengineering \hfill Nov 2025\\
+PIs: Anastasia Khvorova - RNA Therapeutics Institute | Dmitry Korkin - Bioinformatics \& Computer Science\\
+Thesis: Advanced machine learning methods for therapeutic fully modified siRNA design
+
+\textbf{University of Massachusetts Amherst}\\
+MS Molecular and Cellular Biology, thesis-based, Phi Beta Kappa, GPA 4.0 \hfill 2015\\
+BS Biochemistry \& Molecular Biology, Honors College, GPA 4.0, summa cum laude \hfill 2014
+
+% ============================================
+% RESEARCH EXPERIENCE
+% ============================================
+\section*{Research Experience}
+\vspace{2pt}   
+\subsection*{Graduate Researcher, Bioinformatics} \hfill 2019--2025\\
+\textit{UMass Chan Medical School, Worcester, MA}
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=-2pt, topsep=-2pt]
+    \item Developed AI/ML models (Python, R, \& Java) for therapeutic small RNA (siRNAs, ASOs) design, directing the design of 2000+ highly potent siRNAs, 34 currently applied in drug discovery and therapeutic pipelines
+    \item Pioneered novel feature embedding and engineering method applying deep learning to capture transcriptome-wide sequence relationships, improving siRNA potency prediction 5-fold
+    \item Led software development project managing engineering team to build a webapp for siRNA design
+    \item Developed frameworks for statistical analysis, cleaning, and parameter optimization of wide array of data
+    \item Created data pipelines for high-throughput sequencing data processing ensuring accuracy and reliability
+    \item Collaborated extensively with cross-functional teams to drive data analysis and model development
+\end{itemize}
+
+\subsection*{Associate Scientist, Bioinformatics} \hfill 2016--2018\\
+\textit{Advirna, Cambridge, MA}
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt,topsep=-2pt]
+    \item Developed improved software for therapeutic siRNA design, increasing speed of design 5-fold
+    \item Trained a model improving siRNA efficacy prediction accuracy using an easy to tune linear model
+    \item Developed MySQL database application to streamline organization, classification, and storage; deployed as web platform on the cloud to simplify access and maintenance and minimize costs
+\end{itemize}
+
+\subsection*{Researcher, Computational Biophysics} \hfill 2016\\
+\textit{Institute for Protein Design (David Baker Lab), Seattle, WA}
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=-2pt]
+    \item Developed software component for Rosetta protein folding software for entropy modeling (C++)
+    \item Performed molecular modeling and dynamics simulations utilizing high throughput cloud computing
+\end{itemize}
+
+\subsection*{Graduate \& Undergraduate Researcher, Biochemistry} \hfill 2012--2015\\
+\textit{UMass Amherst, MA}
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=-2pt]
+    \item Designed and conducted biophysical assays to evaluate protein structure, dynamics, binding, and kinetics
+    \item Developed novel method to purify and characterize heterocomplexes formed in vivo from cell membranes
+\end{itemize}
+
+\subsection*{Intern, Antibody Discovery Group} \hfill 2013\\
+\textit{Biogen, Cambridge, MA}
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=-2pt]
+    \item Characterized monoclonal antibodies (binding affinity, avidity, stability, functionality) using BLI and ELISA
+    \item Developed computational (Python) parser for antigen-binding site analysis to expedite epitope mapping
+\end{itemize}
+
+% ============================================
+% PUBLICATIONS
+% ============================================
+% \section*{Selected Publications}
+% {\noindent\textit{(for more see \href{\googlescholar}{Google Scholar})}}
+
+\section*{Selected Publications \, \textnormal{\small{\textit{\MakeLowercase{ (for more see} {\href{\googlescholar}{Google Scholar})}}}}}
+\vspace{2pt}   
+
+\begin{itemize}[leftmargin=*, itemsep=-2pt, parsep=0pt,topsep=-2pt]
+    \item \textbf{Monopoli KR}, Sostek B, Gross K, Alterman J, Korkin D, Khvorova A. (2025) Appling advanced artificial intelligence methods to define features of functional therapeutic siRNAs. \textit{In preparation for submission to Nature Biotechnology.}
+    \item Davis SM, Hildebrand S, \textbf{Monopoli KR}, et al. (2025) Systematic Analysis of siRNA and mRNA Features Impacting Fully Chemically Modified siRNA Efficacy. \textit{Nucleic Acids Research}.
+    \item \textbf{Monopoli KR}, Korkin D, Khvorova A. (2023) Asymmetric trichotomous data partitioning enables development of predictive machine learning models using limited siRNA efficacy datasets. \textit{MTNA}.
+    \item Shmushkovich T*, \textbf{Monopoli KR}*, Homsy D, Leyfer D, Betancur-Boissel M, Khvorova A, Wolfson A. (2018) Functional features defining the efficacy of cholesterol-conjugated self-deliverable chemically modified siRNAs. \textit{NAR}. \textsl{\textbf{\small{*co-first authors}}}
+\end{itemize}
+
+% ============================================
+% PATENTS
+% ============================================
+\section*{Patents}
+\vspace{2pt}   
+\begin{itemize}[leftmargin=*, itemsep=-2pt, parsep=0pt, topsep=0pt]
+    \item Oligonucleotides for MAPT modulation. US Patent Application No. 17/204,480. MAR-17-2020
+    \item Oligonucleotides for SNCA modulation. US Patent Application No. 17/204,483. MAR-17-2020
+    \item Oligonucleotides for MSH3 modulation. US Patent Application No. 63/012,603. APR-20-2020
+    \item Oligonucleotides for SARS-CoV-2 modulation. US Patent Application No. 17/333,839. MAY-28-2021
+\end{itemize}
+
+% ============================================
+% SELECTED PRESENTATIONS
+% ============================================
+\section*{Selected Oral Presentations}
+\vspace{2pt}   
+\begin{itemize}[leftmargin=*, itemsep=-2pt, parsep=0pt, topsep=0pt, partopsep=0pt]
+    \item \textbf{Monopoli, KR}, Sostek, B, Korkin, D, Khvorova, A. Designing Potent Therapeutic Fully Modified Therapeutic siRNAs using Advanced AI/ML Techniques. Talk to be presented at the American Society of Gene and Cell Therapy (ASGCT) Meeting; 2026 May; Boston, MA. (\textsl{confirmed, \textbf{invited talk}})
+    \item \textbf{Monopoli, KR}, Sostek, B, Korkin, D, Khvorova, A. Accurate AI-Driven Prediction of Potent Therapeutic Fully Chemically Modified siRNAs. Talk to be presented at the Oligonucleotide Therapeutics Society (OTS) Meeting; 2025 October 19; Budapest, Hungary. (\textsl{confirmed})
+    \item \textbf{Monopoli, KR}, Sostek, B, Korkin, D, Khvorova, A. Advanced machine learning approach for accurate prediction of functional fully modified siRNAs. Talk presented at: Cold Spring Harbor Laboratory Nucleic Acid Therapies Meeting; 2025 Mar 20; Cold Spring Harbor, NH.
+    \item \textbf{Monopoli, KR}, Korkin, D, Khvorova, A. Trichotomous classification on small, limited datasets enables predictive model development for therapeutic small interfering RNA. Talk presented at: Conference on Intelligent Systems for Molecular Biology; 2022 Jul 10; Madison, WI.
+    \item \textbf{Monopoli, KR}, Korkin, D, Khvorova, A. Evaluation-centric method for extracting base preferences from siRNA prediction models identifies features consistent with established mechanisms and is adaptable to examine any machine learning model. On-demand talk presented at: RNA Therapeutics Symposium; 2022 Jun 22.
+    \item \textbf{Monopoli, KR}, Korkin, D, Khvorova, A. Methods to apply and evaluate machine learning models on limited biological datasets through the lens of siRNA design. Talk presented at: Oligonucleotide Therapeutics Society Webinar; 2021 Oct 29. (\textbf{\textsl{invited talk}})
+\end{itemize}
+
+% ============================================
+% MENTORING & MANAGEMENT
+% ============================================
+\section*{Mentoring \& Management Experience}
+\vspace{3pt}   
+\subsection*{Software Development Project Manager} \hfill 2023--2025\\
+\textit{UMass Chan Medical School | Web portal for siRNA Design Application}
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=-2pt]
+    \item Managed recruitment and hiring of software engineers including onboarding logistics and funding/payroll
+    \item Developed and maintained timelines and milestones to expedite software development
+    \item Coordinated communication across teams to ensure satisfactory deliverables and mentored junior engineer
+\end{itemize}
+
+\subsection*{Computer Science Teaching Assistant} \hfill 2018\\
+\textit{Worcester Polytechnic Institute}\\
+Introduction to Programming Design: held recitations, lectured\\
+Object-Oriented Program Design: developed lesson plans and assessments, led recitations
+
+\subsection*{Biochemistry Teaching Assistant} \hfill 2013--2014\\
+\textit{University of Massachusetts Amherst}\\
+Physical Chemistry: team-based learning instructor\\
+General Genetics: held recitations, lectured
+
+\subsection*{Instructor} \hfill 2013\\
+\textit{Biogen Community Lab}\\
+Instructed high school student on independent lab-based molecular biology projects
+
+\vfill
+\centering
+\textit{References available upon request}
+
+\end{document}

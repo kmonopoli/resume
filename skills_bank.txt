@@ -1,0 +1,293 @@
+===========================================
+KATHRYN MONOPOLI - COMPREHENSIVE SKILLS BANK
+===========================================
+Others recently added (be sure no duplicates):
+RStudio/Posit, Confluence, Jira, (other Korro skills?), Pyspark, Databricks, MLOps, Leading SE teams (delegating tasks, managing workflows), 
+-------------------------------------------
+TECHNICAL SKILLS - PROGRAMMING & TOOLS
+-------------------------------------------
+[PROGRAMMING_LANGUAGES]
+- Python (10+ years experience)
+- R
+- Java
+- C++
+- SQL
+- Bash/Shell scripting
+
+[PYTHON_PACKAGES_ML]
+- Scikit-learn (sklearn)
+- TensorFlow
+- PyTorch
+- Pandas
+- NumPy
+- SciPy
+- XGBoost
+- LightGBM
+
+[PYTHON_PACKAGES_BIO]
+- Biopython
+- pysam
+- HTSeq
+- DESeq2 (via rpy2)
+- Scanpy
+- AnnData
+
+[DATA_VIS_TOOLS]
+- Matplotlib
+- Seaborn
+- Plotly
+- ggplot2 (R)
+- Altair
+- Bokeh
+
+[DEVOPS_CLOUD]
+- Git/GitHub version control
+- Docker containerization
+- AWS (Amazon Web Services)
+- Cloud computing platforms
+- CI/CD pipelines
+- High-performance computing (HPC)
+
+[DATABASES]
+- MySQL
+- PostgreSQL
+- SQLite
+- Database design and optimization
+- Cloud-based database deployment
+
+[SOFTWARE_DEVELOPMENT]
+- Object-oriented programming
+- Software architecture design
+- API development
+- Web application development
+- Pipeline automation
+- Unit testing and validation
+
+-------------------------------------------
+MACHINE LEARNING & AI EXPERTISE
+-------------------------------------------
+[ML_TECHNIQUES]
+- Supervised learning (classification, regression)
+- Deep learning and neural networks
+- Feature engineering and selection
+- Model optimization and hyperparameter tuning
+- Cross-validation strategies
+- Ensemble methods
+- Transfer learning
+- Embedding methods
+
+[ML_APPLICATIONS]
+- Predictive modeling for drug design
+- Sequence-based prediction models
+- High-dimensional data analysis
+- Model interpretability and feature importance
+- Handling limited/small datasets
+- Class imbalance handling
+- Model evaluation and validation
+
+[SPECIFIC_ML_APPROACHES]
+- Linear models with regularization
+- Random forests and gradient boosting
+- Support vector machines
+- Neural network architectures
+- Custom loss functions
+- Trichotomous classification
+- Multi-task learning
+
+-------------------------------------------
+BIOINFORMATICS & COMPUTATIONAL BIOLOGY
+-------------------------------------------
+[SEQUENCE_ANALYSIS]
+- RNA sequence analysis
+- DNA sequence motif identification
+- Transcriptome-wide analysis
+- Sequence alignment algorithms
+- Genome annotation
+- Variant calling and analysis
+
+[NGS_DATA_ANALYSIS]
+- High-throughput sequencing data processing
+- RNA-seq analysis
+- Quality control and filtering
+- Pipeline development for NGS data
+- Batch effect correction
+- Differential expression analysis
+
+[STRUCTURAL_BIOLOGY]
+- Protein structure prediction
+- Molecular dynamics simulations
+- Protein folding analysis
+- Binding affinity prediction
+- Structural bioinformatics
+- Rosetta software suite
+- Entropy modeling
+
+-------------------------------------------
+RNA THERAPEUTICS DOMAIN EXPERTISE
+-------------------------------------------
+[RNA_BIOLOGY]
+- siRNA mechanism of action
+- RNA interference (RNAi) pathways
+- Antisense oligonucleotides (ASOs)
+- mRNA biology
+- RNA-protein interactions
+- RNA secondary structure prediction
+- Gene silencing mechanisms
+
+[THERAPEUTIC_DEVELOPMENT]
+- siRNA design and optimization
+- Chemical modifications for stability
+- Delivery strategies (conjugates, formulations)
+- Off-target effect prediction
+- Therapeutic target selection
+- Efficacy prediction and validation
+- Safety profiling
+
+[SPECIFIC_EXPERTISE]
+- Fully chemically modified siRNAs
+- Cholesterol-conjugated siRNAs
+- Self-deliverable oligonucleotides
+- Seed region optimization
+- Strand selection prediction
+- Potency enhancement strategies
+
+[DRUG_DISCOVERY]
+- Lead candidate identification
+- Structure-activity relationships
+- High-throughput screening data analysis
+- Dose-response modeling
+- In silico drug design
+- Translational research support
+
+-------------------------------------------
+DATA SCIENCE & ANALYSIS
+-------------------------------------------
+[DATA_PROCESSING]
+- Data cleaning and preprocessing
+- Missing data handling
+- Outlier detection and treatment
+- Data normalization and transformation
+- Batch correction
+- Quality control workflows
+
+[STATISTICAL_ANALYSIS]
+- Hypothesis testing
+- Statistical modeling
+- Experimental design
+- Power analysis
+- Multiple testing correction
+- Bayesian statistics
+- Survival analysis
+
+[DATA_PIPELINE_DEVELOPMENT]
+- High-throughput data pipelines
+- Automated quality control
+- Reproducible workflows
+- Pipeline optimization for speed and accuracy
+- Error handling and logging
+- Data validation frameworks
+
+[DATA_VISUALIZATION]
+- Complex data visualization
+- Interactive dashboards
+- Publication-quality figures
+- Communicating high-dimensional data
+- Artistic and aesthetic data presentation
+- Color theory for accessibility
+- Custom plotting functions
+
+-------------------------------------------
+BIOCHEMISTRY & MOLECULAR BIOLOGY
+-------------------------------------------
+[WET_LAB_TECHNIQUES]
+- Protein purification and characterization
+- Biophysical assays (binding, kinetics)
+- ELISA and BLI (biolayer interferometry)
+- Cell culture techniques
+- Molecular cloning
+- In vivo protein complex analysis
+
+[PROTEIN_SCIENCE]
+- Protein structure analysis
+- Protein-protein interactions
+- Protein dynamics
+- Enzyme kinetics
+- Antibody characterization
+- Membrane protein biochemistry
+
+-------------------------------------------
+SOFT SKILLS & COMMUNICATION
+-------------------------------------------
+[COMMUNICATION]
+- Oral presentation to diverse audiences
+- Scientific writing (manuscripts, patents, grants)
+- Creating engaging presentation slides
+- Explaining complex concepts to non-technical audiences
+- Conference speaking
+- Data storytelling
+
+[COLLABORATION]
+- Cross-functional team collaboration
+- Bridging computational and experimental teams
+- Translating between technical and biological domains
+- Working with diverse stakeholders
+- Remote collaboration
+
+[LEADERSHIP_MANAGEMENT]
+- Project management
+- Team recruitment and hiring
+- Mentoring junior scientists and engineers
+- Timeline and milestone development
+- Budget and resource management
+- Teaching and curriculum development
+
+[PROBLEM_SOLVING]
+- Analytical thinking
+- Creative solution development
+- Troubleshooting complex systems
+- Adapting methods to limited data
+- Resourcefulness in constraint environments
+
+-------------------------------------------
+SPECIALIZED KNOWLEDGE AREAS
+-------------------------------------------
+[DISEASE_AREAS_EXPERIENCE]
+- Neurodegenerative diseases (Tau/MAPT, Synuclein/SNCA, MSH3)
+- Huntington's disease
+- Alzheimer's disease
+- Parkinson's disease
+- Infectious diseases (SARS-CoV-2)
+
+[REGULATORY_IP]
+- Patent application experience
+- Intellectual property development
+- Grant writing
+- FDA regulatory considerations for therapeutics
+
+[INDUSTRY_EXPERIENCE]
+- Biotech startup environment
+- Pharmaceutical industry (Biogen)
+- Academic-industry collaboration
+- Commercial drug development
+- Fast-paced product development
+
+-------------------------------------------
+KEYWORDS FOR DIFFERENT ROLE TYPES
+-------------------------------------------
+[PURE_ML_DS_ROLES]
+Machine learning, deep learning, scikit-learn, TensorFlow, PyTorch, predictive modeling, feature engineering, model optimization, data pipelines, statistical analysis, Python, R, SQL, cloud computing, big data
+
+[RNA_THERAPEUTICS_FOCUSED]
+siRNA design, RNA therapeutics, oligonucleotide therapeutics, RNAi, antisense oligonucleotides, chemical modifications, drug design, therapeutic development, gene silencing, RNA biology
+
+[BIOINFORMATICS_ROLES]
+Bioinformatics, computational biology, NGS data analysis, sequence analysis, genomics, transcriptomics, pipeline development, biological databases, systems biology
+
+[GENERALIST_BIOTECH_DS]
+Computational biology, machine learning, data science, drug discovery, therapeutic development, bioinformatics, Python, statistical analysis, cross-functional collaboration, data visualization
+
+[STARTUP_INDUSTRY]
+Fast-paced environment, adaptable, software development, product development, startup experience, cross-functional, resourceful, entrepreneurial
+
+[BIG_PHARMA]
+GxP compliance, regulatory experience, patent development, validation, quality control, pharmaceutical development, clinical translation

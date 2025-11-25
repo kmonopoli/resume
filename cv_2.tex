@@ -1,0 +1,221 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{arimo}
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{titlecaps}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Adjust spacing
+\setlength{\parindent}{0pt}
+\setlength{\topsep}{-2pt}
+\setlength{\parskip}{-2pt}
+\titlespacing{\section}{0pt}{4pt}{1pt}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
+\linespread{0.95}
+
+% Section formatting
+\titleformat{\section}{\bfseries\uppercase}{}{0pt}{}[\titlerule]
+\titleformat{\subsection}[runin]{\bfseries}{}{0pt}{}
+
+% Custom commands for easy updates
+\newcommand{\name}{Kathryn Monopoli}
+\newcommand{\phone}{+1-508-367-9077}
+\newcommand{\email}{krmonopoli@gmail.com}
+\newcommand{\linkedin}{linkedin.com/in/kathrynmonopoli}
+\newcommand{\website}{https://kmonopoli.github.io/}
+\newcommand{\googlescholar}{https://scholar.google.com/citations?hl=en&user=fYt4EYcAAAAJ&view_op=list_works&sortby=pubdate}
+
+\renewcommand\UrlFont{\color{blue}\uline}  % underline URLs
+
+% ============================================
+% HEADLINE VARIANT FOR JAX AI/ML ROLE
+% ============================================
+\newcommand{\headline}{%
+\textit{\small{
+Computational scientist with expertise in AI and machine learning for high dimensional biological data. Experienced in building Python based pipelines and models for multi omics and transcriptomic datasets, including RNA sequencing, with a strong track record of leading collaborative projects and communicating results through publications and conference talks.
+}}
+}
+% (keep your font, margins, spacing, etc.)
+
+\begin{document}
+
+% ============================================
+% HEADER
+% ============================================
+\begin{center}
+    {\Large\bfseries \name}\\[0pt]
+    {\small \phone\ $\mid$ \href{mailto:\email}{\email} $\mid$ \href{https://www.linkedin.com/in/kathrynmonopoli/}{\linkedin} $\mid$ \href{\website}{\website}}
+\end{center}
+\vspace{3pt}
+\titlerule
+\vspace{4pt}
+
+% ============================================
+% HEADLINE (SLIGHTLY SHORTENED)
+% ============================================
+\textit{\small{
+Computational scientist specializing in AI and machine learning for high dimensional biological data. Experienced building Python based pipelines for transcriptomic and multi omics datasets and collaborating across computational and experimental teams. Strong record of publications, presentations, and project leadership.
+}}
+
+% ============================================
+% KEY EXPERTISE (MERGED + COMPRESSED)
+% ============================================
+\section*{Key Expertise}
+\vspace{2pt}
+\begin{itemize}[leftmargin=*, itemsep=-1pt, parsep=0pt, topsep=0pt]
+    \item Machine learning and deep learning for biological datasets, including transcriptomic and multi omics data
+    \item RNA sequencing analysis (bulk and single cell), feature engineering, QC, normalization, and model evaluation  
+    \item Python scientific stack (NumPy, Pandas, SciPy, scikit learn, TensorFlow, PyTorch)
+    \item Statistical modeling, supervised and unsupervised learning, ensemble methods, cross validation
+    \item Reproducible pipelines on Unix systems with Git, Docker, HPC, and cloud environments
+    \item Strong communication skills with extensive experience writing manuscripts, reports, and presenting work
+\end{itemize}
+
+% ============================================
+% TECHNICAL SKILLS (TIGHTENED)
+% ============================================
+
+\section*{Technical Skills \, \textnormal{\small{\textit{\MakeLowercase{ (for more see} \href{https://www.linkedin.com/in/kathrynmonopoli/}{\linkedin})
+}}}}
+
+
+\vspace{2pt}
+\begin{itemize}[leftmargin=*, itemsep=-1pt, parsep=0pt, topsep=0pt]
+    \item \textbf{Languages:} Python (10+ yrs), R, Java, C++, SQL, Bash
+    \item \textbf{ML/AI:} TensorFlow, PyTorch, scikit learn, XGBoost, embeddings, ensemble methods
+    \item \textbf{Bioinformatics:} RNA seq and scRNA seq, NGS pipelines, Biopython, pysam  
+    \item \textbf{Infrastructure:} Linux, Docker, Git, AWS, Slurm/HPC
+    \item \textbf{Visualization:} Matplotlib, Seaborn, ggplot2, Plotly
+\end{itemize}
+
+% ============================================
+% EDUCATION (COMPRESSED)
+% ============================================
+\section*{Education}
+\vspace{2pt}
+\textbf{UMass Chan Medical School \& Worcester Polytechnic Institute} \hfill Nov 2025\\
+PhD Computational Biosciences \& Bioengineering  
+
+\textit{Advised by}: Anastasia Khvorova - RNA Therapeutics Institute $\mid$ Dmitry Korkin - Bioinformatics \& Computer Science\\
+Thesis: Machine learning methods for therapeutic siRNA design  
+
+\textbf{University of Massachusetts Amherst} \hfill 2015\\
+MS Molecular and Cellular Biology, Phi Beta Kappa  
+
+BS Biochemistry \& Molecular Biology, \textit{summa cum laude} \hfill 2014\\
+% ============================================
+% RESEARCH EXPERIENCE (HIGH COMPRESSION, STILL STRONG)
+% ============================================
+\vspace{-12pt}
+\section*{Research Experience}
+\vspace{2pt}
+
+\subsection*{Graduate Researcher, Bioinformatics} \hfill 2019--2025\\
+\textit{UMass Chan Medical School}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=-1pt, topsep=-1pt]
+    \item Built AI and ML models predicting efficacy of fully modified therapeutic siRNAs using high dimensional transcriptomic, sequence, and structural features, enabling design of more than 2000 potent siRNAs with 34 progressing to drug discovery programs
+    \item Developed embedding and feature engineering approaches capturing transcriptome wide sequence relationships and multi feature interactions, improving potency prediction accuracy fivefold
+    \item Constructed reproducible high throughput NGS and screening pipelines (QC, normalization, feature extraction, ML training) in Python and R
+    \item Applied and evaluated statistical learning and ML algorithms including ensemble models, regularized linear models, SVMs, and gradient boosting methods with rigorous cross validation
+    \item Led full stack software project integrating ML models into an siRNA design web application, coordinating engineering, data, and experimental teams
+    \item Created publications, figures, and technical reports; contributed analysis text to multi investigator grants
+\end{itemize}
+
+\subsection*{Associate Scientist, Bioinformatics} \hfill 2016--2018\\
+\textit{Advirna, Cambridge, MA}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=-1pt]
+    \item Developed improved siRNA design algorithms increasing throughput fivefold  
+    \item Trained interpretable ML models on limited datasets  
+    \item Built MySQL backed web platform for siRNA data storage and retrieval
+\end{itemize}
+
+\subsection*{Computational Biophysics Researcher} \hfill 2016\\
+\textit{Institute for Protein Design (David Baker Lab)}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=-1pt]
+    \item Implemented entropy modeling component for Rosetta and performed large scale modeling via cloud compute
+\end{itemize}
+
+\subsection*{Biochemistry Researcher} \hfill 2012--2015\\
+\textit{UMass Amherst}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=-1pt]
+    \item Designed assays for protein structure, dynamics, and binding  
+    \item Developed purification method for membrane heterocomplexes
+\end{itemize}
+
+% ============================================
+% PUBLICATIONS (LEFT AS SHORT AS POSSIBLE)
+% ============================================
+\section*{Selected Publications \, \textnormal{\small{\textit{\MakeLowercase{ (for more see} \underline{{\href{\googlescholar}{Google Scholar})}}}}}}
+
+
+\vspace{2pt}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=-1pt]
+    \item \textbf{Monopoli KR}, Sostek B, Gross K, Alterman J, Korkin D, Khvorova A. (2025) Applying advanced AI and ML methods to define features of fully chemically modified functional siRNAs. \textit{In preparation for submission to Nature Biotechnology.}
+    \item Davis SM, Hildebrand S, \textbf{Monopoli KR}, et al. (2025) Systematic analysis of siRNA and mRNA sequence features impacting potency of fully modified therapeutic siRNAs. \textit{Nucleic Acids Research}.
+    \item \textbf{Monopoli KR}, Korkin D, Khvorova A. (2023) Asymmetric trichotomous data partitioning enables predictive ML model development with limited siRNA efficacy datasets. \textit{Molecular Therapy Nucleic Acids}.
+    \item Shmushkovich T*, \textbf{Monopoli KR}*, Homsy D, Leyfer D, Betancur Boissel M, Khvorova A, Wolfson A. (2018) Functional determinants of cholesterol conjugated self deliverable siRNAs. \textit{Nucleic Acids Research}. \textbf{\textsl{\small *co-first authors}}
+\end{itemize}
+
+% ============================================
+% PRESENTATIONS (COMPRESSED)
+% ============================================
+\section*{Selected Presentations}
+\vspace{2pt}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=-1pt]
+    \item \textbf{Monopoli KR}, Sostek B, Korkin D, Khvorova A. Designing potent fully modified therapeutic siRNAs using advanced AI and ML models. American Society of Gene and Cell Therapy Meeting; 2026 May; Boston, MA. (\textit{\textbf{Invited}, confirmed})
+    \item \textbf{Monopoli KR}, Sostek B, Korkin D, Khvorova A. Accurate AI driven prediction of potent fully chemically modified siRNAs. Oligonucleotide Therapeutics Society Meeting; 2025 Oct 19; Budapest, Hungary. (\textsl{Confirmed})
+    \item \textbf{Monopoli KR}, Sostek B, Korkin D, Khvorova A. ML based framework for prediction of functional fully modified siRNAs. Cold Spring Harbor Laboratory Nucleic Acid Therapies Meeting; 2025 Mar 20; Cold Spring Harbor, NY.
+    \item \textbf{Monopoli KR}, Korkin D, Khvorova A. Trichotomous classification enables ML model development for siRNAs with limited datasets. International Conference on Intelligent Systems for Molecular Biology (ISMB); 2022 Jul 10; Madison, WI.
+    \item \textbf{Monopoli KR}, Korkin D, Khvorova A. Evaluation centric method for identifying mechanistic base preferences in siRNA prediction models. RNA Therapeutics Symposium; 2022 Jun 22. (On demand)
+    \item \textbf{Monopoli KR}, Korkin D, Khvorova A. Applying ML models to limited biological datasets through the lens of siRNA design. Oligonucleotide Therapeutics Society Webinar; 2021 Oct 29. (\textbf{Invited})
+\end{itemize}
+
+% ============================================
+% MANAGEMENT (COMPRESSED)
+% ============================================
+\section*{Mentoring \& Management}
+\vspace{2pt}
+
+\subsection*{Software Development Project Manager} \hfill 2023--2025\\
+\textit{UMass Chan Medical School}
+\begin{itemize}[leftmargin=*, itemsep=-1pt, parsep=0pt, topsep=-1pt]
+    \item Managed recruitment, timelines, and cross team communication for ML driven web platform  
+    \item Mentored junior engineer and coordinated model integration
+\end{itemize}
+
+\subsection*{Computer Science Teaching Assistant} \hfill 2018\\
+\textit{Worcester Polytechnic Institute}\\
+Introduction to Programming Design: held recitations, lectured\\
+Object-Oriented Program Design: developed lesson plans and assessments, led recitations
+
+\subsection*{Biochemistry Teaching Assistant} \hfill 2013--2014\\
+\textit{University of Massachusetts Amherst}\\
+Physical Chemistry: team-based learning instructor\\
+General Genetics: held recitations, lectured
+
+\subsection*{Instructor} \hfill 2013\\
+\textit{Biogen Community Lab}\\
+Instructed high school student on independent lab-based molecular biology projects
+
+
+\vfill
+\centering
+\textit{References available upon request}
+
+\end{document}
