@@ -1,69 +1,4 @@
-\documentclass[10pt,letterpaper]{article}
-\usepackage[margin=0.5in]{geometry}
-\usepackage{enumitem}
-\usepackage{hyperref}
-\usepackage{titlesec}
-\usepackage{xcolor}
-% \usepackage[colorlinks=true]{hyperref}
-% \usepackage{tgheros}%lmodern}      % helvet
-\usepackage{arimo}
 
-\renewcommand{\familydefault}{\sfdefault}
-\usepackage{titlecaps}
-
-
-% Remove page numbers
-\pagestyle{empty}
-
-% Adjust spacing
-\setlength{\parindent}{0pt}
-\setlength{\topsep}{-2pt}
-\setlength{\parskip}{-2pt}
-\titlespacing{\section}{0pt}{4pt}{1pt}
-\titlespacing{\subsection}{0pt}{0pt}{0pt}
-\linespread{0.95}   % try 0.9 to 0.95 and see what you like
-
-% Section formatting
-\titleformat{\section}{\bfseries\uppercase}{}{0pt}{}[\titlerule]
-\titleformat{\subsection}[runin]{\bfseries}{}{0pt}{}
-
-
-% Custom commands for easy updates
-\newcommand{\name}{Kathryn Monopoli}
-\newcommand{\phone}{+1-508-367-9077}
-\newcommand{\email}{krmonopoli@gmail.com}
-\newcommand{\linkedin}{linkedin.com/in/kathrynmonopoli}
-\newcommand{\website}{https://kmonopoli.github.io/}
-\newcommand{\googlescholar}{https://scholar.google.com/citations?hl=en&user=fYt4EYcAAAAJ&view_op=list_works&sortby=pubdate}
-
-
-
-% ============================================
-% HEADLINE VARIANTS - UNCOMMENT ONE
-% ============================================
-
-% Option 1: RNA Therapeutics Focused (CURRENT)
-\newcommand{\headline}{%
-\textit{\small{
-Adaptable computational scientist with expertise in machine learning and high-throughput analysis. Proven track record developing models for therapeutic applications and efficient pipelines for data processing. Prior bench experience enables cross-team communication and informed data analysis and validation.}}
-}
-
-% Option 2: Machine Learning / Data Science Focused
-% \newcommand{\headline}{%
-% Machine learning scientist with 10+ years programming experience and expertise in developing predictive models for biological applications. Strong track record building production-ready ML pipelines and translating complex analyses into actionable insights. Skilled at bridging computational and experimental teams through clear communication.
-% }
-
-% Option 3: Bioinformatics Focused
-% \newcommand{\headline}{%
-% Computational biologist specializing in sequence analysis, NGS data pipelines, and machine learning applications in drug discovery. Combines deep biological knowledge with strong software development skills to solve complex problems in therapeutic development. Experienced collaborating across computational and wet-lab teams.
-% }
-
-% Option 4: Generalist Biotech Data Science
-% \newcommand{\headline}{%
-% Data scientist with interdisciplinary expertise spanning machine learning, bioinformatics, and therapeutic development. Proven ability to develop predictive models, build data pipelines, and communicate complex results to diverse stakeholders. Track record delivering impact in both academic and biotech industry settings.
-% }
-
-\begin{document}
 # KATHRYN MONOPOLI
 
 **Phone:** +1-508-367-9077 | **Email:** krmonopoli@gmail.com  
@@ -188,4 +123,3 @@ Honors College, *summa cum laude*, GPA 4.0
 ---
 
 *References available upon request*
-\end{document}
