@@ -54,6 +54,7 @@ TECHNICAL SKILLS - PROGRAMMING & TOOLS
 - SQLite
 - Database design and optimization
 - Cloud-based database deployment
+- Benchling
 
 [SOFTWARE_DEVELOPMENT]
 - Object-oriented programming
