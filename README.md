@@ -1,4 +1,4 @@
-# KATHRYN MONOPOLI
+# Kathryn (Katy) Monopoli, PhD
 
 **Phone:** +1-508-367-9077 | **Email:** krmonopoli@gmail.com  
 **LinkedIn:** linkedin.com/in/kathrynmonopoli | **Website:** https://kmonopoli.github.io/
